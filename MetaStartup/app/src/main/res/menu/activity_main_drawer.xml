@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:src="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_launcher_book"
+            android:title="Courses" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_launcher_grp"
+            android:title="Teams" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_launcher_lap"
+            android:title="Battlecups" />
+    </group>
+
+    <item android:title="action_settingsCommunicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_launcher_ment"
+              android:title="Connect with mentors" />
+            <item
+                    android:id="@+id/nav_send"
+                android:icon="@drawable/ic_launcher_chat"
+                android:title="Discussion" />
+        </menu>
+    </item>
+
+    <item android:title="Our Programs">
+        <menu>
+            <item
+                android:id="@+id/nav_placement"
+                android:icon="@drawable/ic_launcher_star"
+                android:title="Placements" />
+
+            <item
+                android:id="@+id/nav_Events"
+                android:icon="@drawable/ic_launcher_ment"
+                android:title="Events" />
+
+            <item
+                android:id="@+id/nav_clubs"
+                android:icon="@drawable/ic_launcher_foreground"
+                android:title="Clubs" />
+        </menu>
+    </item>
+
+    <item android:title="Tools">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Settings" />
+
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_launcher_foreground"
+                android:title="About Us" />
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_launcher_out"
+                android:title="Logout" />
+
+
+            <item
+                android:id="@+id/nav_Share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+        </menu>
+    </item>
+
+</menu>
